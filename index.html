@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#103A57"><meta name="description" content="Cómo los sensores, la telemetría y la pantalla del volante ayudan al piloto a interpretar los datos de su vehículo.">
+<title>El volante inteligente · Lo que ve el piloto</title>
+<style>
+:root{color-scheme:dark;--navy:#103A57;--teal:#307B8E;--pastel:#A9D3C5;--silver:#CEE5D6;--green:#366B2B}
+*{box-sizing:border-box}body{margin:0;background:var(--navy);color:var(--silver);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100dvh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 75% 35%,rgba(48,123,142,.28),transparent 60%)}
+main{position:relative;max-width:1160px;margin:auto;padding:44px 36px 60px}.topline{font-size:11px;letter-spacing:.23em;font-weight:700;color:var(--pastel);display:flex;align-items:center;gap:13px}.topline:before{content:"";width:10px;height:10px;border-radius:50%;background:var(--green);border:1px solid var(--pastel)}
+.layout{display:grid;grid-template-columns:minmax(250px,410px) minmax(300px,1fr);gap:clamp(32px,7vw,90px);align-items:center;margin-top:35px}.film{aspect-ratio:9/16;width:100%;overflow:hidden;border:1px solid rgba(169,211,197,.32);border-radius:22px;background:#103A57;box-shadow:0 30px 90px rgba(0,0,0,.3)}
+video{display:block;width:100%;height:100%;object-fit:contain}.eyebrow{font-size:11px;letter-spacing:.2em;color:var(--pastel);font-weight:700;margin:0 0 18px}h1{font-size:clamp(40px,5vw,66px);line-height:1.04;letter-spacing:-.055em;margin:0 0 25px;font-weight:760}h1 span{color:var(--pastel)}.intro{font-size:18px;line-height:1.65;max-width:445px;color:var(--silver);opacity:.9;margin-bottom:26px}
+.specs{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--pastel);padding:18px 0 26px;border-top:1px solid rgba(169,211,197,.2)}a{color:var(--pastel);text-underline-offset:4px}.download{display:inline-flex;align-items:center;gap:16px;background:var(--silver);color:var(--navy);text-decoration:none;font-weight:700;font-size:14px;padding:15px 21px;border-radius:8px}.download:hover{background:var(--pastel)}a:focus-visible{outline:3px solid var(--pastel);outline-offset:6px}
+.resources{margin-top:27px;font-size:12px;display:flex;gap:20px;flex-wrap:wrap}.sources{font-size:12px;line-height:1.8;margin-top:38px;max-width:420px;border-top:1px solid rgba(169,211,197,.2);padding-top:18px;color:var(--pastel)}.sources p{margin:0 0 6px}.sources a{margin-right:12px}.note{opacity:.67;font-size:11px;line-height:1.6;margin-top:16px}footer{margin-top:35px;font-size:11px;letter-spacing:.04em;color:var(--pastel);opacity:.65}
+@media(max-width:720px){main{padding:27px 24px 38px}.layout{grid-template-columns:1fr;margin-top:25px;gap:34px}.film{max-width:390px;margin:auto}.copy{max-width:470px;margin:auto}h1{font-size:46px}.intro{font-size:17px}.topline{font-size:10px}footer{margin-top:32px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style></head><body><main>
+<div class="topline">04 / INGENIERÍA QUE SE ENTIENDE</div>
+<div class="layout"><div class="film"><video controls playsinline preload="metadata" poster="portada.jpg" aria-label="El volante inteligente: lo que ve el piloto"><source src="el-volante-inteligente.mp4" type="video/mp4"><track kind="captions" srclang="es" label="Español" src="subtitulos.vtt">Tu navegador no puede reproducir este video. Puedes descargarlo con el enlace de esta página.</video></div>
+<div class="copy"><p class="eyebrow">LO QUE VE EL PILOTO</p><h1>El volante<br><span>inteligente.</span></h1>
+<p class="intro">Los sensores generan datos. La telemetría los lleva al equipo. En el volante, una interfaz clara presenta lo esencial al piloto.</p>
+<div class="specs"><span id="duration">37 s</span><span>1080 × 1920</span><span>60 fps</span><span>Subtítulos en español</span></div>
+<a class="download" href="el-volante-inteligente.mp4" download>Descargar video MP4 <span aria-hidden="true">↓</span></a>
+<div class="resources"><a href="voz.txt">Leer el guion</a><a href="subtitulos.srt" download>Subtítulos SRT</a></div>
+<div class="sources"><p>Fuentes técnicas</p><a href="https://www.mclaren.com/racing/formula-1/2024/f1-questions-youve-been-afraid-to-ask-part-two/">McLaren Racing</a><a href="https://www.bosch-motorsport.com/products/displays/display-ddu-11/">Bosch Motorsport</a><a href="https://tc.canada.ca/en/road-transportation/stay-safe-when-driving/transport-canada-guidelines-limit-distraction-visual-displays-vehicles">Transport Canada</a><p class="note">Animación conceptual. Las lecturas de pantalla son ilustrativas.</p></div>
+</div></div><footer>TECNOLOGÍA Y REFLEJOS TRABAJANDO COMO UNO SOLO.</footer>
+</main><script>document.querySelector('video').addEventListener('loadedmetadata',function(){document.getElementById('duration').textContent=this.duration.toFixed(1).replace('.',',')+' s'})</script></body></html>

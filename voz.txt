@@ -1,0 +1,11 @@
+¿Cómo lees tantos datos sin perder la pista?
+Los sensores miden velocidad, temperatura y voltaje del vehículo.
+El sistema procesa esas señales.
+La telemetría permite monitorearlas a distancia.
+Pero el piloto necesita información clara.
+La pantalla del volante es su interfaz con el vehículo.
+Muestra lo esencial: velocidad, batería y alertas.
+Si aparece un problema, una advertencia destaca.
+Así se busca reducir la carga mental y mantener la atención en la pista.
+Tecnología y reflejos trabajando como uno solo.
+Si quieres saber más datos interesantes síguenos.

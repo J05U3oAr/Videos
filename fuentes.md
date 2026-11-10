@@ -18,7 +18,7 @@ Consulta: 10 de noviembre de 2026. Se utilizan fuentes primarias para los princi
 - El indicador de batería representa información procesada. No se animará el voltaje como si por sí solo fuera un porcentaje exacto de carga.
 - Velocidad, batería y alertas son los contenidos propuestos en el adjunto. No hay evidencia de que el prototipo ya los implemente ni de sus tiempos reales de actualización.
 - Los valores de pantalla serán ilustrativos y se identificarán como «EJEMPLO». Se evitarán umbrales de temperatura o voltaje que pudieran interpretarse como límites técnicos del vehículo.
-- La paleta procede directamente de la respuesta del usuario. No se añaden logotipos ni nombres de equipo que no haya proporcionado.
+- La edición actual utiliza colores naturales por material, solicitados por el usuario tras aprobar el diseño. No se añaden logotipos ni nombres de equipo que no haya proporcionado.
 
 ## Decisiones editoriales
 
